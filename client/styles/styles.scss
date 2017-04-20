@@ -1,0 +1,48 @@
+@import ".meteor/local/build/programs/server/assets/packages/meteoric_ionic-sass/ionic";
+@import ".meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons";
+
+
+// Modal starts shifted 100% below the app.
+.modal-enter {
+  transform: translateY(100%);
+}
+// When it's active, it transitions back to position.
+.modal-enter.modal-enter-active {
+  transform: translateY(0);
+  transition: transform .3s ease;
+}
+// When the modal leaves, it starts out in normal position.
+.modal-leave {
+  transform: translateY(0);
+}
+// But when active, it is shifted 100% below the app and destroyed.
+.modal-leave.modal-leave-active {
+  transform: translateY(100%);
+  transition: transform .3s ease;
+}
+
+
+// We want the profile section to take up 40% of the view height.
+.profile-wrapper {
+  height: 40vh;
+  // We want our image to be centered.
+  .image-wrapper {
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // We want our image to be circular with a gray border.
+    img, div {
+      border: solid 1px #ccc;
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+  }
+  // We want our login buttons to be centered.
+  .login-wrapper {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+  }
+}
