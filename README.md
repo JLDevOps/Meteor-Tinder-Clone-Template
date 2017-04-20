@@ -3,8 +3,7 @@ A Tinder-Clone template that is developed in Meteor.js.
 
 This is the finished product of Sam Corcos's tutorial on [Meteor-React-Ionic Mobile Tinder App](https://medium.com/@SamCorcos/meteor-react-ionic-mobile-app-part-1-the-basic-template-9355ebf3397f)
 
-![](https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif =250x250)
-
-<img src="https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif" width="100px">
+## Demo
+<img src="https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif" width="200px">
 
 
