@@ -3,10 +3,10 @@ A Tinder-Clone template that is developed in Meteor.js.
 
 This is the finished product of Sam Corcos's tutorial on [Meteor-React-Ionic Mobile Tinder App](https://medium.com/@SamCorcos/meteor-react-ionic-mobile-app-part-1-the-basic-template-9355ebf3397f)
 
-(Please note: this was tested via OSX Sierra)
+(Please note: this was tested via OSX Sier
 
 ## Demo
-<img src="https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif" width="400px">
+<img src="https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif" width="300px">
 
 ## Quick Guide
 
@@ -53,11 +53,24 @@ This is the finished product of Sam Corcos's tutorial on [Meteor-React-Ionic Mob
     ```sh
     unzip Meteor-Tinder-Clone-Template.zip 
     ```
-2. Go into the folder 
+2. Create a meteor app with a folder name
     ```sh
-    cd Meteor-Tinder-Clone
+    meteor create tinder-clone
     ```
-3.  Run this command to start the project 
+3. Either drag and copy the files from the zip folder over to the app folder or use:
+    ```sh
+    cp -a /Metor-Tinder-Clone/. /tinder-clone/
+    ```
+4. Go into the folder 
+    ```sh
+    cd tinder-clone
+    ```
+5.  Run this command to start the project 
     ```sh
     meteor run 
     ```
+
+## Q & A
+
+Q. "I am getting an error message to add packages."
+A. Please take a look at Sam Corcos's tutorial on [Meteor-React-Ionic Mobile Tinder App](https://medium.com/@SamCorcos/meteor-react-ionic-mobile-app-part-1-the-basic-template-9355ebf3397f) for the necessary packages that are needed for meteor.
