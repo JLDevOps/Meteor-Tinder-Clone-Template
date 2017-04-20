@@ -5,3 +5,5 @@ This is the finished product of Sam Corcos's tutorial on [Meteor-React-Ionic Mob
 
 ![[https://github.com/JLDevOps/Meteor-Tinder-Clone-Template/raw/master/pics/tinder-clone.gif | height = 100px]]
 
+[[ http://www.sheawong.com/wp-content/uploads/2013/08/keephatin.gif | height = 100px ]]
+
